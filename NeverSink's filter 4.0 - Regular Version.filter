@@ -2722,11 +2722,11 @@ Show #$chancing, top
 # Assassin's Garb - Corspri's Will
 	
 ### REGULAR CHANCE BASES ###	
-Show #$chancing
-	BaseType "Occultist's Vestment" "Assassin's Garb" "Prophecy Wand" "Deicide Mask"
-	Rarity Normal
-	SetTextColor 255 255 255 255
-	SetBorderColor 0 150 0 150
+#Show #$chancing
+#	BaseType "Occultist's Vestment" "Assassin's Garb" "Prophecy Wand" "Deicide Mask"
+#	Rarity Normal
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 0 150 0 150
 
 ### LEGACY UNIQUE CHANCE BASES ###
 ### THESE UNIQUES CAN ONLY BE CHANCED IN THE CORRECT ZANA-LEAGUE MODS ###
@@ -2863,10 +2863,17 @@ Show #$nonmf
 # You can find some suggestions for popular items in the list below.
 
 Show #$crafting, nonmf
-BaseType "Hubris Circlet" "Harbinger Bow"
-Rarity <= Magic
-SetBorderColor 0 0 0
-SetFontSize 32
+  BaseType "Hubris Circlet" "Harbinger Bow" "Opal Sceptre" "Exquisite Blade" "Fleshripper" "Ambusher" "Jewelled Foil"
+  Rarity <= Magic
+  SetBorderColor 0 0 0
+  SetFontSize 32
+
+Show #$crafting, egc
+  BaseType "Sai"
+  Class Daggers
+  Rarity <= Magic
+  SetBorderColor 0 0 0
+  SetFontSize 32
 
 # "Ambusher" "Vaal Axe" "Platinum Kris" "Imperial Skean" "Demon Dagger" "Vaal Rapier" "Jewelled Foil" "Opal Sceptre" "Imbued Wand" "Prophecy Wand" "Carnal Armour" "Saint's Hauberk" "Saintly Chainmail" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Assassin's Garb" "Zodiac Leather" "Astral Plate" "Glorious Plate" "Vaal Regalia" "Titanium Spirit Shield" "Sorcerer Gloves"
 
